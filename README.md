@@ -65,6 +65,7 @@ _Для `Comment`, `Like` можно использовать `ManyToManyField` 
 - Добавить **пагинацию** для постов, комментов. [link](https://www.django-rest-framework.org/api-guide/pagination/)
 - Добавить **фильтрацию** для постов, комментов. [link](https://www.django-rest-framework.org/api-guide/filtering/)
 - Сделать ендпоинты в виде `/api/v1/posts` или `/api/v1/comments` и т.д.
+- Добавить картинки к постам.
 
 ## Этап 4. Docker.
 
