@@ -48,9 +48,9 @@ _Сделать `username` не обязательным, а `email` обяза�
 
 ## Этап 2. Endpoints.
 
-1. Сделать **Сериализаторы** для созданых моделей[(link)](https://www.django-rest-framework.org/api-guide/serializers/)
-2. Сделать **CRUD** для созданых моделей с использованием **ViewSets**[(link)](https://www.django-rest-framework.org/api-guide/viewsets/)
-3. Сделать **JWT** авторизацию[(link)](https://www.django-rest-framework.org/api-guide/authentication/#json-web-token-authentication)
+1. Сделать **Сериализаторы** для созданых моделей [(link)](https://www.django-rest-framework.org/api-guide/serializers/)
+2. Сделать **CRUD** для созданых моделей с использованием **ViewSets** [(link)](https://www.django-rest-framework.org/api-guide/viewsets/)
+3. Сделать **JWT** авторизацию [(link)](https://www.django-rest-framework.org/api-guide/authentication/#json-web-token-authentication)
 4. Ограничить доступ на добавление лайка к посту, коммента не авторизованым юзерам.
 5. Добавить ограничения, чтобы юзер не мог изменить данные другого юзера.
 
