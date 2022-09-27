@@ -51,13 +51,14 @@ _Для `Comment`, `Like` можно использовать `ManyToManyField` 
 ## Этап 2. Endpoints.
 
 1. Сделать **Сериализаторы** для созданых моделей [(link)](https://www.django-rest-framework.org/api-guide/serializers/)
-2. Сделать **CRUD** для созданых моделей с использованием **ViewSets** [(link)](https://www.django-rest-framework.org/api-guide/viewsets/)
+2. Сделать **CRUD** для созданых моделей с использованием **ViewSets** (кроме `Likes`) [(link)](https://www.django-rest-framework.org/api-guide/viewsets/)
 3. Сделать **JWT** авторизацию [(link)](https://www.django-rest-framework.org/api-guide/authentication/#json-web-token-authentication)
 4. Ограничить доступ на добавление лайка к посту, коммента не авторизованым юзерам.
 5. Добавить ограничения, чтобы юзер не мог изменить данные другого юзера.
 
 ## Этап 3. Improvements.
 
+- Добавить в сериализатор для модели `Post` поле `likes` в котором будет количество лайков. 
 - Добавить возможность **автоудаления поста** с использованием `Celery`
 - Добавить возможность **отложеного поста** с использованием `Celery`
 - Написать `Middleware` которая при возникновении ошибки в приложении будет отправлять ошибку в телеграм админу(ам), и на почту. [link](https://docs.djangoproject.com/en/4.1/topics/http/middleware/)
