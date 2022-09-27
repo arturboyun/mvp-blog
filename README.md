@@ -30,18 +30,19 @@
 _Сделать `username` не обязательным, а `email` обязательным._
 
 #### Post:
-- `title: str`
-- `description: str`
-- `text: text`
+- `user: foregin-key to User` *
+- `title: str` *
+- `description: str` *
+- `text: text` *
 
 #### Like:
-- `user: foregin-key to User`
-- `post: foregin-key to Post`
+- `user: foregin-key to User` *
+- `post: foregin-key to Post` *
 
 #### Comment:
-- `user: foregin-key to User`
-- `post: foregin-key to Post`
-- `text: text`
+- `user: foregin-key to User` *
+- `post: foregin-key to Post` *
+- `text: text` *
 
 **!!! Не забудь про миграции.**
 
